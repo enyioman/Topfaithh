@@ -1,0 +1,207 @@
+.nav2 {
+    background-color: #2E4180; 
+    height: 70px;
+}
+.nav2 a {
+    padding-top: 20px;
+}
+.svg-icon {
+    color: #2E4180;
+
+}
+.happy-grad {
+    background: linear-gradient(rgba(46, 65, 128, 0.16), rgba(46, 65, 128, 0.68)), url('../img/happygrad.png') no-repeat;
+    background-size: cover;
+    height:700px;
+  }
+  .exp-btn {
+      background-color: #FFF705;
+      color: #2E4180;
+      width: 280px;
+      height: 60px;
+  }
+  .faith {
+        position: relative;
+        top:-685px;
+        left: 715px;
+        width: 110px;
+  }
+  .welcome {
+      margin-top: 350px;
+  }
+  .world {
+      color: #2E4180;
+  }
+  .glance {
+    background: linear-gradient(rgba(46, 65, 128, 0.2), rgba(46, 65, 128, 0.2)), url('../img/image3.png') no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 0;
+  }
+  .vidclick {
+      padding-top: 200px;
+  }
+  .glance-text {
+      padding-top: 30px;
+  }
+  .concept {
+    background: linear-gradient(rgba(46, 65, 128, 0.98), rgba(46, 65, 128, 0.98)), url('../img/image4.png') no-repeat fixed;
+    background-size: cover;
+    height: 800px;
+  }
+  .obj {
+      color: #FFF705;
+  }
+  .read-btn {
+    background-color: #FFF705;
+    color: #2E4180;
+    width: 200px;
+    height: 50px;
+  }
+
+  .colbr {
+    border-right: 3px dotted #FFF705;
+    border-bottom: 3px dotted #FFF705;
+  }
+  .colb {
+      border-bottom: 3px dotted #FFF705;
+  }
+  .colr {
+      border-right: 3px dotted #FFF705;
+  }
+
+  .up {
+      font-size: 50px;
+      font-weight: bold;
+      color: #FFF705;
+  }
+  .down {
+    display: inline;
+    font-weight: normal;
+    color: #FFF705;
+  }
+  .std-count{
+      padding-top: 100px;
+  }
+  #carous {
+      background:linear-gradient(#1F43B3,#2E4180);
+      height: 600px;
+      font-size: 35px;
+  } 
+  .quote-mark {
+     color:#FFF705;
+     font-size:80px;
+     left:380px !important;
+     position: relative;
+     bottom:-100px;
+  }
+  .quote-mark2 {
+     color:#FFF705;
+     font-size:80px;
+     left:1070px;
+     position: relative;
+     top:-65px !important;
+  }
+  .caros-text {
+      position: relative;
+  }
+  .p-title {
+      top: -100px;
+      position: relative;
+      font-size: 20px;
+  }
+  .office {
+      position: relative;
+      top: -115px;
+      color: #FFF705;
+      font-size: 15px;
+  }
+  #exams {
+      background-color: #FCF9F9;
+      height: 440px;
+  }
+  .blog-desc {
+    position: relative;
+    top:-44px;
+    background-color: rgba(0, 0, 0, 0.53);
+    padding:10px 3px 10px 3px;
+  }
+  .gray {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  .faze{
+      color: #2E4180;
+      font-weight: bold;
+  }
+  .option {
+      color: #646874;
+  }
+  .hrline {
+      color: #7F88A6;
+  }
+  .intl {
+        color: #2E4180;
+  }
+  @media (max-width:1024px) {
+    .nav2 {
+        height: 120px;
+    }
+    .happy-grad {
+        background: linear-gradient(rgba(46, 65, 128, 0.16), rgba(46, 65, 128, 0.68)), url('../img/happygrad.png') no-repeat;
+        background-size: cover;
+        height:700px;
+        background-position: 50%;
+      }
+      .glance {
+        background: linear-gradient(rgba(46, 65, 128, 0.2), rgba(46, 65, 128, 0.2)), url('../img/image3.png') no-repeat;
+        background-size: cover;
+        height: 600px;
+        background-position: 50%;
+      }
+      .concept {
+        background: linear-gradient(rgba(46, 65, 128, 0.98), rgba(46, 65, 128, 0.98)), url('../img/image4.png') no-repeat fixed;
+        background-size: cover;
+        height: 1000px;
+        background-position: 50%;
+      }
+      #carous {
+          font-size: 14px;
+          height: 450px;
+      }
+      .quote-mark {
+        color:#FFF705;
+        font-size:40px;
+        left:8px !important;
+        position: relative;
+        bottom:-50px;
+      }
+      .quote-mark2 {
+        color:#FFF705;
+        font-size:40px;
+        left:305px;
+        position: relative;
+        top:-38px !important;
+     }
+     .p-title {
+        top: -40px;
+        position: relative;
+        font-size: 14px;
+    }
+    .office {
+        position: relative;
+        top: -50px;
+        color: #FFF705;
+        font-size: 12px;
+    }
+    .up{
+        font-size:14px;
+    }
+    .down{
+        font-size:9px !important;
+    }
+    #exams {
+        background-color: #FCF9F9;
+        height: 800px;
+    }
+  }
